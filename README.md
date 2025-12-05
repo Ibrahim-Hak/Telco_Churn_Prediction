@@ -6,8 +6,8 @@ The Orange Telecom's Churn Dataset, which consists of cleaned customer activity 
 link to data can be found here https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
 
 ## Model Building & Selection
-Three classification models where built including LogisticRegression, RandomForest and MLPClassifier.
-Overall, RandomForest performed better on the testing dataset with an accuracy of 96%. But with lesser sensitivity when compared to LogisticRegression model indicating the models ability to catch churners.
+Three classification models where built including LogisticRegression, RandomForest and MLPClassifier.<br>
+Overall, RandomForest performed better on the testing dataset with an accuracy of 96%. But with lesser sensitivity when compared to LogisticRegression model indicating the models ability to catch churners. <br>
 RandomForest model was choosing and the prediction weight were changed in order to improve the sensitivity (0.73 -> 0.80).
 
 ## Comments On Feature Importances & Possible Churn Drivers.
