@@ -2,8 +2,8 @@
 This Project Explore Key Churn Driver Utilizing Extended python Library such as SHAP and LIME
 
 ## Data
-The Orange Telecom's Churn Dataset, which consists of cleaned customer activity data (features), along with a churn label specifying whether a customer canceled the subscription, will be used to develop predictive models. Two datasets are made available here: The churn-80 and churn-20 datasets can be downloaded.
-link to data can be found here https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
+The Orange Telecom's Churn Dataset, which consists of cleaned customer activity data (features), along with a churn label specifying whether a customer canceled the subscription, will be used to develop predictive models. Two datasets are available here: The churn-80 and churn-20 datasets can be downloaded.<br>
+The link to data can be found here: https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
 
 ## Model Building & Selection
 Three classification models where built including LogisticRegression, RandomForest and MLPClassifier.<br>
