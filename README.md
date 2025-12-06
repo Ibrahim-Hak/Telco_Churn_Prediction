@@ -6,13 +6,13 @@ The Orange Telecom's Churn Dataset, which consists of cleaned customer activity 
 The link to data can be found here: https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
 
 ## Model Building & Selection
-Three classification models where built including LogisticRegression, RandomForest and MLPClassifier.<br>
+Three classification models were built including LogisticRegression, RandomForest and MLPClassifier.<br>
 Overall, RandomForest performed better on the testing dataset with an accuracy of 96%. But with lesser sensitivity when compared to LogisticRegression model indicating the models ability to catch churners. <br>
-RandomForest model was choosing and the prediction weight were changed in order to improve the sensitivity (0.73 -> 0.80).
+RandomForest model was choosen and the prediction weight were changed in order to improve the sensitivity from 0.73 to 0.80.
 
 ## Comments On Feature Importances & Possible Churn Drivers.
 ### Churn Drivers
-The most important feature which contributes to models prediction of a churn are;
+The most important features which contributes to a models prediction of churn are;
 * Number of customer service calls.
 * Whether a customer is sign up on an international call plan.
 * Total day voice usage/charge.
@@ -21,7 +21,7 @@ All this features are envident using the model specific and agnostic method like
 
 To better understand how this features impact churn, the beeswarm plot shows that;
 * Higher customer service calls contribute to churn (categorically calls > 2). Which might indicate either low customer satisfaction or unresolved issues.
-* Customers on international plan tend to churn more. which indicate how price-sensitive this customers maybe due to higher charges on international calls leading to bill shocks.
+* Customers on international plan tend to churn more. Which indicate how price-sensitive this customers maybe due to higher charges on international calls leading to bill shocks.
 * Higher day usages/charges (Voice). Higher consumers are susceptible to churn since they tend to scout for cheaper offers in the market.
 
 ### Solutions.
